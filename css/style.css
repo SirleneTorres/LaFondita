@@ -1,0 +1,128 @@
+/* Navigation styles */
+.logo {
+    background: white;
+    height: 230px;
+    background-image: url("../images/LogoSir.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .nav {
+    display: flex;
+    background-color: rgb(13, 12, 12);
+    padding: 20px;
+  }
+  
+  .left, .center, .right {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left, .right {
+    width: 25%;
+  }
+  .center {
+    width: 50%;
+  }
+  
+  .center a {
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family:arial;
+  }
+  
+  .right button {
+    background-color:#f37b34 ;
+    color:black;
+    font-size: 16px;
+    padding: 15px;
+    width: 50%;
+  }
+  
+  .left button {
+    background-color:#f37b34;
+    color:black;
+    font-size: 16px;
+    padding: 15px;
+    width: 50%;
+  }
+  
+  /* Column styles */
+  .column {
+    display: flex;
+    height: 1200px;
+    width: 800px;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  
+  .meal1, .meal2, .meal3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+  }
+  .meal1 {
+    margin-top:20px;
+    background-image: url("../images/elote.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  
+  }
+  .meal2 {
+    background-image: url("../images/taco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .meal3 {
+    background-image: url("../images/tamales.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .text {
+    background: rgba(230, 156, 156, 0.7);
+    width: 100%;
+    padding: 20px 40px;
+    color: black;
+  }
+  .text p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .text h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 100px;
+  }
+  
+  .footer a {
+    padding: 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  
+  .ig {
+    color: black;
+  }
+  
+  .fb {
+    color:black;
+  }
+  
+  .tw {
+    color: black;
+  }
+  
